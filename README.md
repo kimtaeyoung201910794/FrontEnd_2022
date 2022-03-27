@@ -60,10 +60,9 @@
 <br/><br/>
 ## 💓 프론트엔드 운영진 💓
 
-|회장|소통장|
-|:---:|:---:|
-|이혜린|손성빈|
-|<img src="https://user-images.githubusercontent.com/77167694/156386187-83df5f5c-4615-46cb-a1f1-13eee4c1e17b.png" width="120" height="120"/> | <img src="https://user-images.githubusercontent.com/77167694/156384656-f8d9340f-b24f-4f4b-aef4-a1797f636c41.png" width="130" height="120"/>|
-
+|회장|총무|소통장|
+|:---:|:---:|:---:|
+|이혜린|이은지|손성빈|
+|<img src="https://user-images.githubusercontent.com/77167694/156386187-83df5f5c-4615-46cb-a1f1-13eee4c1e17b.png" width="120" height="120"/> | <img src="https://user-images.githubusercontent.com/77167694/156384656-f8d9340f-b24f-4f4b-aef4-a1797f636c41.png" width="130" height="120"/>| 사진추후붙일게요|
 ### 🗣 질문이 있다면 ?? 프론트엔드 단톡방으로 !! <br/> (링크)
 </div>
