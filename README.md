@@ -31,26 +31,33 @@
 
 <div>
   
-  #### 초기 설정
-  ```
-  cd (작업할 폴더 위치)                                       // 작업할 폴더 이동
-  git init                                                // 시작하기
-  git config --global user.name "leehyerin"               // 유저 이름 설정   
-  git config --global user.email "lion@likelion.org"      // 이메일 등록
-  git add .                                               // 파일 추가
-  git commit -m "first commit"                            // 커밋 달기
-  git remote add origin 레포지토리 주소                       // 폴더와 레포지토리 연결
-  git push origin "자신의브랜치이름"                           // 레포지토리의 master 브랜치에 push
-                                                             (브랜치 이름 꼭 확인하기)
-  ```
+### ‼️ 브랜치명은 자신의 이름으로 생성해주세요 ‼️
+  
+```bash
+$ git checkout -b <브랜치명>
+$ git push origin <브랜치명>
+```
+
+▶️ checkout : 사용할  브랜치 지정 <br/>
+▶️ checkout -b : 브랜치 생성과 체크아웃을 동시에! 
+<br/>
+<br/>
+  
+```bash
+$ git push origin <브랜치명>    
+```
+  
+▶️ origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
+<br/>
+<br/> 
   
   #### 앞으로 작업 후 입력할 코드
-  ```
-  cd (작업할 폴더 위치)                                       // 작업할 폴더 이동
-  git pull origin master                                  // 레포지토리에서 폴더로 pull
-  git add .                                               // 파일 추가
-  git commit -m "commit"                                  // 커밋 달기
-  git push origin "자신의브랜치이름"                           // 레포지토리의 master 브랜치에 push
+  ```bash
+  $ cd (작업할 폴더 위치)                                       // 작업할 폴더 이동
+  $ git pull origin <브랜치명>                                // 레포지토리에서 폴더로 pull
+  $ git add .                                               // 파일 추가
+  $ git commit -m "commit"                                  // 커밋 달기
+  $ git push origin <브랜치명>                                // 레포지토리의 master 브랜치에 push
   ```
   
 </div>
@@ -64,5 +71,5 @@
 |:---:|:---:|:---:|
 |이혜린|이은지|손성빈|
 |<img src="https://user-images.githubusercontent.com/77167694/156386187-83df5f5c-4615-46cb-a1f1-13eee4c1e17b.png" width="120" height="120"/> | <img src="https://user-images.githubusercontent.com/77167694/160402003-eefc558a-0905-40a0-a773-a0046d49d3fc.png" width="120" height="120"/>| <img src="https://user-images.githubusercontent.com/77167694/156384656-f8d9340f-b24f-4f4b-aef4-a1797f636c41.png" width="130" height="120"/>| 
-### 🗣 질문이 있다면 ?? 프론트엔드 단톡방으로 !! <br/> (링크)
+### 🗣 질문이 있다면 ?? 프론트엔드 단톡방에서 편하게 질문해주세요 ❤️
 </div>
