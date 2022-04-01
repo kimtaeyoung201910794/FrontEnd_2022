@@ -34,8 +34,8 @@
 ### ‼️ 브랜치명은 자신의 이름으로 생성해주세요 ‼️
   
 ```bash
-$ git checkout -b <브랜치명>
-$ git push origin <브랜치명>
+$ git checkout -b "브랜치명"
+$ git push origin "브랜치명"
 ```
 
 ▶️ checkout : 사용할  브랜치 지정 <br/>
@@ -44,20 +44,20 @@ $ git push origin <브랜치명>
 <br/>
   
 ```bash
-$ git push origin <브랜치명>    
+$ git push origin "브랜치명"    
 ```
   
-▶️ origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
+▶️ origin(원격저장소)에 "브랜치명" 브랜치를 푸쉬
 <br/>
 <br/> 
   
   #### 앞으로 작업 후 입력할 코드
   ```bash
   $ cd (작업할 폴더 위치)                                       // 작업할 폴더 이동
-  $ git pull origin <브랜치명>                                // 레포지토리에서 폴더로 pull
+  $ git pull origin "브랜치명"                                // 레포지토리에서 폴더로 pull
   $ git add .                                               // 파일 추가
   $ git commit -m "commit"                                  // 커밋 달기
-  $ git push origin <브랜치명>                                // 레포지토리의 master 브랜치에 push
+  $ git push origin "브랜치명"                                // 레포지토리의 master 브랜치에 push
   ```
   
 </div>
