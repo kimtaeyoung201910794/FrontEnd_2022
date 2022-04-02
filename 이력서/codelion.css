@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+*{
+    font-family: Montserrat;
+    color:black;
+}
+
+body,h1,h2{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    min-width:fit-content;
+}
+
+/* 내 이름*/
+h1{
+    font-size:36px;
+    font-weight: bold;
+    font-style:italic;
+    text-align: left;
+}
+/*html, css 개발자*/
+
+.sub{
+    text-align: right;
+
+
+}
+.img{
+    padding:0px;
+}
+
+.mainbox{
+    width:610px;
+    padding:30px;
+    margin:30px;
+    margin-right:auto;
+    margin-left:auto;
+    border:1px solid #ebebeb;
+    box-shadow:0 1px 20px 0 rgba(0,0,0,0.1)
+
+}  
+.logo{
+    padding-left:90px;
+}
+
+
+/* about me 에 대한 내용 */
+.about-me{
+    font-size:11px;
+    line-height: 16px;
+    white-space: normal;
+    text-align: left;
+
+}
+
+.left{
+    float:left;
+    width:180px;
+    height:700px;
+    padding-top:24px;
+    padding-right:20px;
+    border-right:1px solid #ebebeb;
+}
+
+.right{
+    float:left;
+    width:350px;
+    padding-left:40px;
+    padding-top:20px;
+ 
+
+}
+
+.float-wrap{
+    overflow: hidden;
+
+}
+
+h2{
+    border-bottom:1px solid #ebebeb;
+    padding-bottom:10px;
+}
+
+
+/* section 마다 margin-bottom 에 24px씩 자리를 마련한다.*/
+section{
+    margin-bottom:24px;
+}
+.one{
+    font-size:12px;
+    font-weight:bold;
+    color:#282828;
+    float:left;
+}
+
+.two{
+    font-size:12px;
+    font-weight:bold;
+    color:#282828;
+    float:right;
+
+}
+.three{
+    font-size:11px;
+}
+.four{
+    font-size:11px;
+    color:#282828;
+    padding-left:16px;
+}
+
+
+footer{
+    text-align: center;
+    color:#919191;
+    font-size:10px;
+    padding:20px;
+}
