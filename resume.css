@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding: 5px;
+}
+
+.name-text{
+    text-align: right;
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+    font-family: 'Jua', sans-serif;
+}
+
+.about-me-text{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.mainbox{
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1); /* x축 y축 blur spread color rgba->a는 투명도를 뜻함*/
+    overflow: hidden;
+}
+
+.title-box h1{
+    text-align: left;
+    font-family: 'Jua', sans-serif;
+}
+
+.title-box img{
+    text-align: left;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.title-text{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.year-text{
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text{
+    font-size: 9px;
+}
+
+.desc-subtext{
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.sns-img{
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: orange;
+}
+
+.left{
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right{
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+    border-left:1px solid #ebebeb;
+    padding-left: 10px;
+}
