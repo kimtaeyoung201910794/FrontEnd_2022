@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🦁 상명대학교 멋쟁이사자처럼 10기 백엔드 과제 제출방 🦁
+# 🦁 상명대학교 멋쟁이사자처럼 10기 프론트엔드 과제 제출방 🦁
   
 <img src="https://user-images.githubusercontent.com/77167694/156416969-3add381e-1311-4fa8-b8df-a48bbafe5607.jpeg" width="800" height="320">
 
@@ -19,7 +19,7 @@
 <div align="center"> 
   
 <br/><br/>
-## 💻 백엔드 운영진 💻
+## 💻 프론트엔드 운영진 💻
 
 |회장|총무|소통장|
 |:---:|:---:|:---:|
