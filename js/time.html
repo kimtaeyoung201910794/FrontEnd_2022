@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* 간단하게 꾸며주기 */
+        .timeout{
+            background-color: orange;
+            width: 60%;
+            height: 100px;
+            text-align:center;
+            padding-top: 60px;
+
+        }
+
+    </style>
+    <div class="tiemout">7초후에 내가 사라져볼게 얍</div>
+    <!-- 시간이 점점 줄어들다가 시간이 다 되면 사라지는 코드 -->
+    <script>
+        //변수선언
+        var timecnt = 7;
+        senInterval(function(){
+            tiemcnt--;
+            //타임카운트 하나씩 줄어들면서 반복하다가 7초지나면 디스플레이 none으로 바꿔줌
+            document.querySelector('.timeout').innerHTML = '$(timecnt)초후에 내가 사라져볼게 얍';
+        }, 1000); //1초마다  코드반복
+        setTimeout(function(){
+            document.querySelector('.timeout').style.display = "none";
+        },7000);
+    </script>
+    
+</body>
+</html>
