@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="main.css">
+    <title>Document</title>
+    <!-- <script>
+        // let favoriteArtist = 'taeyeon';
+        // console.log(favoriteArtist);
+
+        // const a = 10;
+        // console.log(a);
+
+        // let add = 1+2;
+        // console.log(add);
+
+        // let b = 2 +5 -(3*2)/2;
+        // console.log(b);
+
+        // const c = 2022;
+        // const d = '올해는 호랑이의 해';
+        // console.log(c+d);
+
+        // let num1= 10;
+        // let num2 = 3;
+
+        // num1 += num2;
+        // console.log(num1);
+
+        // num1 -= num2;
+        // console.log(num1);
+
+        // let num3 = 1;
+        // num3 ++;
+        // ++ num3;
+        // console.log(num3);
+
+        // let num4 = 1;
+        // num4 --;
+        // console.log(num4);
+
+        // const a =10;
+        // const b = 15;
+        // const c = 15;
+
+        // console.log(a<b);
+        // console.log(b >=c);
+
+        // const d=1;
+        // const e='1';
+        // const equals = d==e;
+        // console.log(equals);
+
+        // const value = 1 !== '1';
+        // consile.log(value);
+
+        // let orOperator = true || false;
+        // console.log(orOperator);
+        // orOperator = false || false;
+
+        // const andOperator = true && false;
+        // console.log(andOperator);
+
+        // const notOperator = !true;
+        // console.log(notOperator);
+
+    // let a = 10;
+    // let b = 20;
+    // let c = 30;
+    // let d = 40;
+
+    // let result;
+    // result = a> b || b >= c || c > d;
+    // console.log(result); // true 가 나옴
+
+    // result = a <= b && b < c && d >= c;
+    // console.log(result);  //false가나옴
+
+    // result = !(a >b);
+    // console.log(result); //
+
+//if문
+    // const a = 1;
+    // if(a+1 == 2){
+    //     console.log('a+1은 2입니다');
+
+    // }
+    
+    // //else if문
+
+    // const b =10;
+    // if (b>15){
+    //     console.log('b는 15보다 큽니다');
+    // }
+    // else{
+    //     console.log('b는 15보다 크지 않습니다');
+    // }
+    
+    // //else if 문
+
+    // //지금이 무슨 계절인지 알아보는 코드
+    // let month = 5;
+    // if(month >= 3 && month <= 5){
+    //     console.log("따스한 햇살 가득한 봄");
+    // }
+    // else if (month >=6 && month <=8){
+    //     console.log("쨍쨍 햇빛 쬐는 여름");
+    // }
+    // else if(month >= 9 && month <= 11){
+    //     console.log("파란 하늘의 가을");
+    // }
+    // else{
+    //     console.log("코 끝이 시리도록 추운 겨울");
+    // }
+
+    // //while문 실습
+
+    // let i = 1;
+    // while( i<= 10){
+    //     console.log(i);
+    //     i++;
+    // }
+
+    // //for문 실습 + break 실습
+
+    // for (let j=1; j<=10; j++){
+    //     console.log(j);
+    //     if (j==6) break;
+    // }
+
+    // //countinue
+    // for (let k = 1; k <=10; k++){
+    //     if (k%2 ==0) countinue;
+    //     console.log(k);
+    // }
+
+    // const a = 1;
+    // const b =2;
+    // const sum=a+b;
+    // console.log(sum);
+
+    // function add(num1,num2){
+    //     return num1+num2;
+    // }
+    // const sum2=add(100,200);
+    // console.log(sum2); //300 나옴!!
+
+
+    // //hello,name(자신의 이름)
+    // function hello(name){
+    //     console.log('hello, ${name}');
+    // }
+    // hello('lion');
+
+    // //함수를 점수등급으로 변환!!
+
+    // function getGrade(score){
+    //     if(score === 100){
+    //         return 'A';
+    //     }
+    //     else if(score >=90){
+    //         return 'b';
+    //     }
+
+    //     else if (score >=80){
+    //         return 'c';
+
+    //     }
+    //     else if(score >= 70){
+    //         return 'd';
+
+    //     }
+    //     else{
+    //         return 'f';
+    //     }
+
+    // }
+
+    // const grade= getGrade(90);
+    // console.log(grade);
+
+    // //객체실습
+
+    // const sample = {
+    //     'key with space': true
+    //     };
+
+    // const likelion = {
+    //     name: '멋쟁이사자처럼',
+    //     age: 10
+    // };
+
+    // console.log(likelion.name);//likelion객체의 이름을 알고싶을때
+
+    // const numArray = [1,2,3,4,5]; //배열선언하는 방법들
+
+    // const object =[
+    //     {name: '멋쟁이'},
+    //     {name: '사자처럼'}
+    // ];
+
+    // console.log(object[0]); //첫번째값임
+    // console.log(object[1]); //두번째
+
+    // object.push(
+    //     {name : '자바스크립트'}
+    // ); //배열에 값 넣는 방법
+
+    // console.log(object);
+
+    // console.log(object.length); //배열의 길이 값 알아내기
+   
+    
+
+        
+    </script> -->
+</head>
+<body>
+    <!-- <ul id = "animals">
+        <li class = "animal">lion</li>
+        <li class = "animal">tiger</li>
+        <li class = "animal">bear</li>
+    </ul>
+
+    <div class = "box"></div> -->
+<!-- 
+    <!-- <button id="btn">눌러봐</button> -->
+    <!-- <button id = "plus">+</button>
+    <span id ="num">0</span>
+    <button id = "minus">-</button> --> 
+
+    <!-- <div class = "bar">여기 눌러봐</div>
+    <div class = "newbar">짠 내가 생겼어</div> -->
+
+
+    <ul  class="list">
+        <li class ="tab-button" data-id="0">DOG</li>
+        <li class ="tab-button" data-id="1">TIGER</li>
+        <li class ="tab-button" data-id="2">BEAR</li>
+    </ul>
+
+    <div class="tab-content">
+        <p>얘는 짖어요</p>
+    </div>
+
+    <div class="tab-content">
+        <p>얘는 물어요</p>
+    </div>
+
+    <div class="tab-content">
+        <p>얘는 찢어요</p>
+    </div>
+
+
+    <script src="lion.js"></script>
+
+    
+</body>
+</html>
