@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>가위바위보 김태영</title>
+</head>
+<style>
+    html,body{
+        height:100%;
+        width:100%;
+        overflow:hidden;
+        background-color:aqua;
+    }
+    h1{
+        text-align:center;
+        color:bisque;
+        font-size:350%;
+    }
+    h2{
+        text-align:center;
+        color:blueviolet;
+        font-size:200%;
+
+    }
+
+    .pickone{
+        text-align:center;
+        max-width:100%; 
+        height:auto;
+        
+        
+    }
+    .rock{
+        height:50%;
+        width:100%;
+        display:flex;
+    }
+    .result{
+        margin-left: 5%;
+        margin-right:5%;
+        width: 60%;
+  
+    }
+    .image,.image2{
+        background-color:brown;
+        padding-left:30%;
+        display:flex;
+        padding-bottom:5%;
+    }
+
+    .hscore,.cscore{
+        background-color:brown;
+        height:15%;
+        width:100%;
+        color:black;
+        text-align: center;
+        padding-top:6%;
+        font-size:160%;
+        
+    }
+    button{
+       width:15%;
+       height:15%;
+       border-radius: 50%;
+    }
+    h3{
+        text-align:center;
+        color:aqua;
+    }
+    #rock,#paper,#scissors{
+        width:50%;
+    }
+
+</style>
+<body>
+    <h1>가위 바위 보!</h1>
+    <h2 id ="winner">Good Luck!</h2><!--jquery를 이용하여 값을 변경해주기위해 클래스 설정-->
+
+
+    <div class="rock">
+        <div class="result">
+            <div class ="hscore">You: 0</div><!--jquery를 이용하여 값을 변경해주기위해 클래스 설정-->
+            <div class = "image"><img id="himg" src="1.png"></div><!--jquery를 이용하여 값을 변경해주기위해 클래스 설정-->
+        </div>
+
+        <div class="result">
+            <div class = "cscore">Computer: 0</div><!--jquery를 이용하여 값을 변경해주기위해 클래스 설정-->
+            <div class = "image2"><img id="cimg" src="1.png"></div><!--jquery를 이용하여 값을 변경해주기위해 클래스 설정-->
+        </div>
+    </div>
+
+    <h3>choose one!</h3>
+
+    <div class="pickone">
+        
+        <button><img id='rock' src="1.png"></button>
+        <button><img id='paper' src="2.png"></button>
+        <button><img id='scissors' src="3.png"></button>
+       
+    </div>
+    <!--가위바위보 이미지를 버튼으로 넣어주기-->
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script><!--jquery불러오기-->
+    <script src="rock.js"></script> <!--js파일을 불러오기-->
+    
+ 
+</body>
+</html>

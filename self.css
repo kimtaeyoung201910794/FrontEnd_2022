@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    color: white;
+}
+html{
+    background-color:#282828;
+}
+
+body,h1,h2 {
+     margin:0px;
+     padding:0px;
+}
+
+body{
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+    text-align: right;
+    margin-top: 12px;
+}
+
+.name-text{
+    font-size:16px;
+    color: #7c7c7c;
+    font-weight: bold;
+    text-align: right;
+}
+.about-me-text{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+h2{
+    font-size: 20px;
+    color: #ECF00E;
+    font-weight: bolder;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+.title-text{
+    font-size: 11px;
+    font-weight: bold;
+   color: #46E7F0;
+    float: left;
+}
+
+.year-text{
+    font-size: 11px;
+    font-weight: bold;
+   color: #46E7F0;
+    float: right;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+.mainbox{
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px soild #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color:#282828;
+    border: 1px solid white;
+}
+
+footer{
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+    }
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.desc-text{
+    font-size: 9px;
+}
+
+.desc-subtext{
+    font-size: 9px;
+   color: #867A6F;
+    padding-left: 15px;
+}
+
+.sideleft{
+    width: 30%;
+    float: left;
+   box-sizing: border-box;
+   padding-right: 15px;
+}
+.sideright{
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid white;
+    
+}
+
+.snsimg{
+    width: 12px;
+    height: 12px;
+}
+
+.pic{
+    text-align: right;
+    margin-bottom: 17px;
+}
